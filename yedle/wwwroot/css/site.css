@@ -1,18 +1,54 @@
+:root {
+  /* The Life Of Pablo - theme / default  */
+  --YeOrange: rgba(213,87,81,255);
+  --YeSand: rgba(248,171,122,255);
+  /* College Dropout */
+  --CdYellow: #daaf0c;
+  --CdBrown: #3f1512;
+  /* Late Registration */
+  --LrGrey: #bebab5;
+  --LrBrown: #451706;
+  /* Graduation */
+  --GPurple: #9a4882;
+  --GSand: #dfdcb8;
+  /* 808s And HeartBreaks */
+  --808Lime: #d0dfc6;
+  --808LightBlue: #ebf1f1;
+  --808DarkGrey: #d6d6d6;
+  --800Teal: #e9e2db;
+  --808Green: #aee7b8;
+  --808LightBlue2: #d2f7ed;
+  --808DarkBlue: #b4ccd7;
+  --808LighterBlue: #dbe6e4;
+  --808LightGrey: #dae5e4;
+  --808Sand: #b7b2b0;
+  --808Pink: #ffeddb;
+  --808Main: #ffbab3;
+  /* My Beautiful Dark Twisted Fantasy*/
+  --MbdtfRed: #ec2541;
+  --MbdtfYellow: #eabd54;
+  /* Yeezus */
+  --yezzusDarkGrey: #24252e;
+  --yeezusYellow: #ceb06c;
+  /* Kids See Ghosts */
+  --KsgBlue: #287c9f;
+  --KsgRed: #bd355d;
+  /* Donda / Dark Mode */
+  --dondaBlack: black;
+}
 html {
   font-size: 14px;
+  scroll-behavior: smooth;
 }
-
 @media (min-width: 768px) {
   html {
     font-size: 16px;
   }
 }
-
 html {
   position: relative;
   min-height: 100%;
 }
-
 body {
   margin-bottom: 60px;
 }
