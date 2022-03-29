@@ -52,6 +52,39 @@ html {
 body {
   margin-bottom: 60px;
 }
+.disappear {
+  text-decoration: none;
+  color: #fff;
+}
+.disappear:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.disappear:visited {
+  text-decoration: none;
+  color: #fff;
+}
 .defaultTheme {
   background-color: var(--YeOrange);
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1rem;
+  color: #fff;
+}
+nav {
+  height: 80px;
+  border-bottom: 1px solid var(--YeSand);
+}
+/* Icons */
+.iconPresets {
+  color: #fff;
+}
+.iconLeft {
+  float: left;
+}
+.iconRight {
+  float: right;
 }

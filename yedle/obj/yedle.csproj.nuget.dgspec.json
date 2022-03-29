@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\testytest\\yedle\\yedle\\yedle.csproj": {}
+    "C:\\ye-dle2\\yedle\\yedle.csproj": {}
   },
   "projects": {
-    "C:\\testytest\\yedle\\yedle\\yedle.csproj": {
+    "C:\\ye-dle2\\yedle\\yedle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\testytest\\yedle\\yedle\\yedle.csproj",
+        "projectUniqueName": "C:\\ye-dle2\\yedle\\yedle.csproj",
         "projectName": "yedle",
-        "projectPath": "C:\\testytest\\yedle\\yedle\\yedle.csproj",
+        "projectPath": "C:\\ye-dle2\\yedle\\yedle.csproj",
         "packagesPath": "C:\\Users\\kacpe\\.nuget\\packages\\",
-        "outputPath": "C:\\testytest\\yedle\\yedle\\obj\\",
+        "outputPath": "C:\\ye-dle2\\yedle\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kacpe\\AppData\\Roaming\\NuGet\\NuGet.Config"
