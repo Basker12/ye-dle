@@ -12,18 +12,18 @@
   --GPurple: #9a4882;
   --GSand: #dfdcb8;
   /* 808s And HeartBreaks */
-  --808Lime: #d0dfc6;
-  --808LightBlue: #ebf1f1;
-  --808DarkGrey: #d6d6d6;
-  --800Teal: #e9e2db;
-  --808Green: #aee7b8;
-  --808LightBlue2: #d2f7ed;
-  --808DarkBlue: #b4ccd7;
-  --808LighterBlue: #dbe6e4;
-  --808LightGrey: #dae5e4;
-  --808Sand: #b7b2b0;
-  --808Pink: #ffeddb;
-  --808Main: #ffbab3;
+  --808Purple: #a3277b;
+  --808DarkBlue: #2b3a71;
+  --808Yellow: #f9ef01;
+  --808Teal: #a0d4d1;
+  --808LightBlue: #00adef;
+  --808Green: #02a691;
+  --808Pink: #f8c3d5;
+  --808DarkYellow: #d6dd53;
+  --808LightPurple: #ca89b1;
+  --808DarkPink: #e43578;
+  --808DarkPurple: #3b1a7d;
+  --808Main: #c3cdcf;
   /* My Beautiful Dark Twisted Fantasy*/
   --MbdtfRed: #ec2541;
   --MbdtfYellow: #eabd54;
@@ -51,4 +51,7 @@ html {
 }
 body {
   margin-bottom: 60px;
+}
+.defaultTheme {
+  background-color: var(--YeOrange);
 }

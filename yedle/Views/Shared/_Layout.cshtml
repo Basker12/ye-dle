@@ -7,30 +7,27 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
     <link rel="stylesheet" href="~/yedle.styles.css" asp-append-version="true"/>
+    
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/3a79eafc68.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
 </head>
-<body>
+
+<body class="defaultTheme">
 <header>
     <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
         <div class="container-fluid">
             <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                 <ul class="navbar-nav flex-grow-1">
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                    </li>
                 </ul>
-                <a class="nav-link text-dark text-center" asp-area="" asp-controller="Home" asp-action="Index">yedle</a>
             </div>
         </div>
     </nav>
 </header>
-<div class="container">
-    <main role="main" class="pb-3">
-        @RenderBody()
-    </main>
-</div>
+<main role="main" class="pb-3">
+    @RenderBody()
+</main>
+
 
 <!--
 <footer class="border-top footer text-muted">
@@ -43,5 +40,6 @@
 <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="~/js/site.js" asp-append-version="true"></script>
 @await RenderSectionAsync("Scripts", required: false)
+
 </body>
 </html>
