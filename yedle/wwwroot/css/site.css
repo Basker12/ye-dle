@@ -36,6 +36,9 @@
   /* Donda / Dark Mode */
   --dondaBlack: black;
 }
+* {
+  font-family: 'Anton', sans-serif;
+}
 html {
   font-size: 14px;
   scroll-behavior: smooth;
@@ -71,20 +74,39 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1rem 1rem;
   color: #fff;
 }
 nav {
-  height: 80px;
+  height: 75px;
   border-bottom: 1px solid var(--YeSand);
 }
 /* Icons */
 .iconPresets {
   color: #fff;
 }
-.iconLeft {
-  float: left;
+.leftIcons {
+  margin-left: 1rem;
+  padding-bottom: 2.5rem;
 }
-.iconRight {
-  float: right;
+.rightIcons {
+  margin-right: 1rem;
+  padding-bottom: 2.5rem;
+}
+.header .flex-left {
+  margin-right: 10rem;
+}
+.header .flex-right {
+  margin-left: 10rem;
+}
+.fa-spin-hover {
+  transition-timing-function: cubic-bezier(.5, 1.75, .75, 1.25)
+}
+.fa-spin-hover:hover {
+
+  /*
+  -webkit-animation: fa-spin 2s infinite linear;
+  -moz-animation: fa-spin 2s infinite linear;
+  -o-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
+  */
 }
