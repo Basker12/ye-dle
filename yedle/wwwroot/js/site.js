@@ -1,4 +1,11 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿let btn = document.querySelector("#help");
+let helpDiv = document.querySelector("#boxHelp");
 
-// Write your JavaScript code.
+btn.addEventListener('click', () => {
+    if (helpDiv.style.display === 'none') {
+        helpDiv.style.display = 'block';
+    } 
+    else {
+        helpDiv.style.display = 'none';
+    }
+});

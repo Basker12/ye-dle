@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ye-dle2\\yedle\\yedle.csproj",
+      "projectUniqueName": "C:\\ye-dleee\\yedle\\yedle.csproj",
       "projectName": "yedle",
-      "projectPath": "C:\\ye-dle2\\yedle\\yedle.csproj",
+      "projectPath": "C:\\ye-dleee\\yedle\\yedle.csproj",
       "packagesPath": "C:\\Users\\kacpe\\.nuget\\packages\\",
-      "outputPath": "C:\\ye-dle2\\yedle\\obj\\",
+      "outputPath": "C:\\ye-dleee\\yedle\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kacpe\\AppData\\Roaming\\NuGet\\NuGet.Config"

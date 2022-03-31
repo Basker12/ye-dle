@@ -104,6 +104,40 @@ nav {
   -o-animation: fa-spin 3.5s cubic-bezier(.5, 1.75, .75, 1.25);
   animation: fa-spin 3.5s cubic-bezier(.5, 1.75, .75, 1.25);
 }
+.iconSeparator {
+  margin-right: 0.5rem;
+}
+.iconBoxes {
+  margin: 0.5rem 0.5rem;
+  color: #fff;
+}
 .curr {
   cursor: pointer;
+}
+/* Icons */
+.box1 {
+  height: 370px;
+  width: 600px;
+  border-radius: 5px;
+  background-color: var(--YeOrange);
+  border: 1px solid var(--YeSand);
+}
+#boxHelp {
+  display: none;
+}
+.display-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+p {
+  color: #fff;
+  font-size: 1.5rem;
+  margin: 0.5rem 0.5rem;
 }
