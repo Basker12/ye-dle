@@ -98,15 +98,12 @@ nav {
 .header .flex-right {
   margin-left: 10rem;
 }
-.fa-spin-hover {
-  transition-timing-function: cubic-bezier(.5, 1.75, .75, 1.25)
-}
 .fa-spin-hover:hover {
-
-  /*
-  -webkit-animation: fa-spin 2s infinite linear;
-  -moz-animation: fa-spin 2s infinite linear;
-  -o-animation: fa-spin 2s infinite linear;
-  animation: fa-spin 2s infinite linear;
-  */
+  -webkit-animation: fa-spin 3.5s cubic-bezier(.5, 1.75, .75, 1.25);
+  -moz-animation: fa-spin 3.5s cubic-bezier(.5, 1.75, .75, 1.25);
+  -o-animation: fa-spin 3.5s cubic-bezier(.5, 1.75, .75, 1.25);
+  animation: fa-spin 3.5s cubic-bezier(.5, 1.75, .75, 1.25);
+}
+.curr {
+  cursor: pointer;
 }
