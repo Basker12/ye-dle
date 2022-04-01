@@ -147,13 +147,6 @@ nav {
   align-items: flex-start;
   float: left;
 }
-.flex-guesses {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  gap: 20px;
-}
 p {
   color: #fff;
   font-size: 1.5rem;

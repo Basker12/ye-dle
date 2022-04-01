@@ -8,17 +8,23 @@ let statsDiv = document.querySelector("#boxStats");
 helpBtn.addEventListener('click', () => {
     if (helpDiv.style.display === 'none') {
         helpDiv.style.display = 'block';
-    } 
-    else {
-        helpDiv.style.display = 'none';
     }
+});
+
+window.addEventListener('mouseup', function (event) {
+   if (event.target !== helpDiv && event.target.parentNode !== helpDiv) {
+       helpDiv.style.display = 'none'
+   } 
 });
 
 statsBtn.addEventListener('click', () => {
     if (statsDiv.style.display === 'none') {
         statsDiv.style.display = 'block';
     }
-    else {
-        statsDiv.style.display = 'none';
-    }
+});
+
+window.addEventListener('mouseup', function (event) {
+   if (event.target !== statsDiv && event.target.parentNode !== statsDiv) {
+       statsDiv.style.display = 'none'; 
+   } 
 });
