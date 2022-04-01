@@ -122,7 +122,17 @@ nav {
   background-color: var(--YeOrange);
   border: 1px solid var(--YeSand);
 }
+.box2 {
+  height: 370px;
+  width: 600px;
+  border-radius: 5px;
+  background-color: var(--YeOrange);
+  border: 1px solid var(--YeSand);
+}
 #boxHelp {
+  display: none;
+}
+#boxStats {
   display: none;
 }
 .display-flex {
@@ -135,6 +145,14 @@ nav {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  float: left;
+}
+.flex-guesses {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
 }
 p {
   color: #fff;
