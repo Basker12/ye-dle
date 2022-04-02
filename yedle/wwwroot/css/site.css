@@ -129,10 +129,20 @@ nav {
   background-color: var(--YeOrange);
   border: 1px solid var(--YeSand);
 }
+.box3 {
+  height: 370px !important;
+  width: 620px;
+  border-radius: 5px;
+  background-color: var(--YeOrange);
+  border: 1px solid var(--YeSand);
+}
 #boxHelp {
   display: none;
 }
 #boxStats {
+  display: none;
+}
+#boxSettings {
   display: none;
 }
 .display-flex {
@@ -147,8 +157,24 @@ nav {
   align-items: flex-start;
   float: left;
 }
-p {
+p, h1, h2 {
   color: #fff;
   font-size: 1.5rem;
   margin: 0.5rem 0.5rem;
+}
+input[type=button] {
+  padding: 0.5rem 0.5rem;
+  margin: 0.5rem 0.5rem;
+  border-radius: 5px;
+  border: 1px solid var(--YeSand);
+  background-color: var(--YeOrange);
+  color: #fff;
+}
+.containerInputs {
+  width: 100%;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  flex-wrap: wrap;
 }
