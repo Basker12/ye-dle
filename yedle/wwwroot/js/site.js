@@ -7,6 +7,9 @@ let statsDiv = document.querySelector("#boxStats");
 let settingsBtn = document.querySelector("#settings");
 let settingsDiv = document.querySelector("#boxSettings");
 
+let bodyTag = document.querySelector("body");
+let navBorder = document.getElementById("navBorder");
+
 helpBtn.addEventListener('click', () => {
     if (helpDiv.style.display === 'none') {
         helpDiv.style.display = 'block';
@@ -39,3 +42,8 @@ window.addEventListener('mouseup', function (event) {
         settingsDiv.style.display = 'none';
     }
 });
+
+function changeTheme () {
+    bodyTag.style.backgroundColor = "#3f1512";
+    navBorder.style.borderColor = "red";
+}

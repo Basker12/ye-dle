@@ -23,7 +23,7 @@
 
 <div class="display-flex">
     
-    <div class="box1" id="boxHelp">
+    <div class="box1 borderColour" id="boxHelp">
         <h1 class="text-center" style="margin-top: 1rem;">Help</h1>
         
         <p class="flex"> <span class="iconSeparator"><i class="fa-solid fa-headphones fa-lg iconBoxes"></i>
@@ -36,7 +36,7 @@
         </span> Special thanks to Heardle and Wordle for the inspiration to create ye-dle</p>
     </div>
 
-    <div class="box2" id="boxStats">
+    <div class="box2 borderColour" id="boxStats">
         <h1 class="text-center" style="margin-top:  1rem;">Statistics</h1>
         
         <p class="flex"> <span class="iconSeparator"><i class="fa-solid fa-trophy fa-lg iconBoxes"></i>
@@ -46,24 +46,34 @@
             </span>KanYe Power Score - "You left your fridge open, somebody just took a sandwich"</p>
     </div>
     
-    <div class="box3" id="boxSettings">
+    <div class="box3 borderColour" id="boxSettings">
         <h1 class="text-center" style="margin-top:  1rem;">Settings</h1>
         
         <p class="flex"> <span class="iconSeparator"><i class="fa-solid fa-paintbrush fa-lg iconBoxes">
-            </i></span>Choose from 9 availble themes - Each theme is corresponding to a KanYe album</p>
+        </i></span>Choose from 9 availble themes - Each theme is corresponding to a KanYe album</p>
         
         <div class="containerInputs">
-            <input  type="button" value="College Dropout"/>
-            <input  type="button" value="Late Registration"/>
-            <input  type="button" value="Graduation"/>
-            <input  type="button" value="808's And Heartbreaks"/>
-            <input  type="button" value="My Beautiful Dark Twisted Fantasy"/>
-            <input  type="button" value="Yeezus"/>
-            <input  type="button" value="The Life Of Pablo / Original Theme"/>
-            <input  type="button" value="Kids See Ghosts"/>
-            <input  type="button" value="Donda / Dark Theme"/>    
+            <input  type="button" value="College Dropout" id="cd" onclick="changeTheme()" class="borderColour boxesColour"/>
+            <input  type="button" value="Late Registration" class="borderColour boxesColour"/>
+            <input  type="button" value="Graduation" class="borderColour boxesColour"/>
+            <input  type="button" value="808's And Heartbreaks" class="borderColour boxesColour"/>
+            <input  type="button" value="My Beautiful Dark Twisted Fantasy" class="borderColour boxesColour"/>
+            <input  type="button" value="Yeezus" class="borderColour boxesColour"/>
+            <input  type="button" value="The Life Of Pablo / Original Theme" class="borderColour boxesColour"/>
+            <input  type="button" value="Kids See Ghosts" class="borderColour boxesColour"/>
+            <input  type="button" value="Donda / Dark Theme" class="borderColour boxesColour"/>    
         </div>
     </div>
+    
+    
+    <div class="outputDivSize">
+        <div class="userOutput"></div>
+        <div class="userOutput"></div>
+        <div class="userOutput"></div>
+        <div class="userOutput"></div>
+        <div class="userOutput"></div>
+    </div>
+    
 </div>
 </html>
 
