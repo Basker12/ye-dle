@@ -185,11 +185,31 @@ input[type=button] {
   width: 50vw;
 }
 .userOutput {
-  position: sticky;
   width: 100%;
   height: 50px;
   padding: 1rem 1rem;
   margin: 1rem;
   border: 1px solid var(--YeSand);
   border-radius: 5px;
+}
+.musicProgress {
+  margin-top: 2.5rem;
+  width: 100vw;
+  height: 20px;
+  border: 1px solid var(--YeSand);
+}
+.player {
+  border: 1px solid var(--YeSand);
+  border-radius: 75px;
+  width: 75px;
+  height: 75px;
+}
+input[type=search] {
+  display: block;
+  width: 100%;
+  margin: 1rem 1rem;
+  padding: 1rem 1rem;
+  border: 1px solid var(--YeSand);
+  border-radius: 5px;
+  background-color: var(--YeOrange);
 }
