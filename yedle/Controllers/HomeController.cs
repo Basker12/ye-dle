@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using yedle.Models;
+using yedle.KanyeModel;
+using Microsoft.EntityFrameworkCore;
 
 namespace yedle.Controllers
 {

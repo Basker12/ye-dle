@@ -1,4 +1,5 @@
-﻿@{
+﻿@model yedle.KanyeModel.KanyeSongs;
+@{
     ViewData["Title"] = "ye-dle";
     Layout = "_Layout";
 }
@@ -19,13 +20,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <!-- Google Fonts -->
     
-    <!-- Deezer API -->
-    <script src="https://e-cdns-files.dzcdn.net/js/min/dz.js"></script>
-    <!-- Deezer API -->
+    <!-- JQuery -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">  
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>  
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script> 
+    <!-- JQuery -->
     
 </head>
-
-<div class="display-flex">
+@using (Html.BeginForm("Index", "Home", FormMethod.Get))
+{
+    <div class="display-flex">
+    
     
     <div class="box1 borderColour" id="boxHelp">
         <h1 class="text-center" style="margin-top: 1rem;">Help</h1>
@@ -83,20 +88,20 @@
     <div class="musicProgress"></div>
 </div>
 
-<div class="display-flex">
+<div class="display-flex" style="margin-top: 2rem !important;">
     <div class="player"></div>
 </div>
 
-<div class="display-flex">
+<div class="display-flex" style="margin-top: 2rem !important;">
     <div class="outputDivSize">
         <input type="search" value="Know the Kanye song? Search it..." style="color: #fff;"/>
         
         <input type="submit" value="Submit" style="color: #fff;"/>
         <input type="button" value="Skip ( 1 s )" />
     </div>
-    
-</div>
 
+</div>
+}
 </html>
 
 <!--

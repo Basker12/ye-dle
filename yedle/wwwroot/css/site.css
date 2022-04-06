@@ -1,6 +1,6 @@
 :root {
   /* The Life Of Pablo - theme / default  */
-  --YeOrange: rgba(213,87,81,255);
+  --YeOrange: rgb(187, 58, 52);
   --YeSand: rgba(248,171,122,255);
   /* College Dropout */
   --CdYellow: #daaf0c;
@@ -154,7 +154,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 .flex {
   display: flex;
@@ -229,5 +229,5 @@ input[type=submit] {
   border: 1px solid var(--YeSand);
   border-radius: 5px;
   background-color: var(--YeOrange);
-  float: right;
+  float: left;
 }

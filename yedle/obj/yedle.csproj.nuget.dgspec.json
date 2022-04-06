@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kacpergalecki\\RiderProjects\\yedle\\yedle\\yedle.csproj": {}
+    "C:\\ye-dlee2\\yedle\\yedle.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kacpergalecki\\RiderProjects\\yedle\\yedle\\yedle.csproj": {
+    "C:\\ye-dlee2\\yedle\\yedle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kacpergalecki\\RiderProjects\\yedle\\yedle\\yedle.csproj",
+        "projectUniqueName": "C:\\ye-dlee2\\yedle\\yedle.csproj",
         "projectName": "yedle",
-        "projectPath": "C:\\Users\\kacpergalecki\\RiderProjects\\yedle\\yedle\\yedle.csproj",
-        "packagesPath": "C:\\Users\\kacpergalecki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kacpergalecki\\RiderProjects\\yedle\\yedle\\obj\\",
+        "projectPath": "C:\\ye-dlee2\\yedle\\yedle.csproj",
+        "packagesPath": "C:\\Users\\kacpe\\.nuget\\packages\\",
+        "outputPath": "C:\\ye-dlee2\\yedle\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kacpergalecki\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\kacpe\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
