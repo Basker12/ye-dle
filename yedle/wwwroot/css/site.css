@@ -213,3 +213,21 @@ input[type=search] {
   border-radius: 5px;
   background-color: var(--YeOrange);
 }
+input[type=button] {
+  display: block;
+  margin: 1rem 1rem;
+  padding: 1rem 1rem;
+  border: 1px solid var(--YeSand);
+  border-radius: 5px;
+  background-color: var(--YeOrange);
+  float: left;
+}
+input[type=submit] {
+  display: block;
+  margin: 1rem 1rem;
+  padding: 1rem 1rem;
+  border: 1px solid var(--YeSand);
+  border-radius: 5px;
+  background-color: var(--YeOrange);
+  float: right;
+}

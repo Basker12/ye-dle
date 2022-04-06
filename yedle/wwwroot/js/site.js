@@ -45,5 +45,5 @@ window.addEventListener('mouseup', function (event) {
 
 function changeTheme () {
     bodyTag.style.backgroundColor = "#3f1512";
-    navBorder.style.borderColor = "red";
+    navBorder.style.borderColor = "#daaf0c";
 }
