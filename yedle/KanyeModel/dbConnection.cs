@@ -5,6 +5,7 @@ namespace yedle.KanyeModel;
 public class dbConnection : DbContext
 {
     public DbSet<KanyeSongs> Songs { get; set; }
+    public DbSet<FullSongs> KSongs { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder options)
         => options.UseSqlite(@"Data Source = C:\ye-dlee2\yedle\Database\KanyeSongs.db");
