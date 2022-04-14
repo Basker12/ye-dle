@@ -134,21 +134,24 @@ nav {
   border-radius: 5px;
 }
 .box3 {
-  height: 370px !important;
+  height: 450px !important;
   width: 620px;
   border-radius: 5px;
 }
 #boxHelp {
   display: none;
-  z-index: 1;
+  position: absolute;
+  background-color: var(--YeOrange);
 }
 #boxStats {
   display: none;
-  z-index: 1;
+  position: absolute;
+  background-color: var(--YeOrange);
 }
 #boxSettings {
   display: none;
-  z-index: 1;
+  position: absolute;
+  background-color: var(--YeOrange);
 }
 .display-flex {
   display: flex;
@@ -230,4 +233,19 @@ input[type=submit] {
   border-radius: 5px;
   background-color: var(--YeOrange);
   float: left;
+}
+.box1, .box2, .box3 {
+  animation: popout 1s ease;
+  -webkit-animation: popout 1s ease;
+}
+@keyframes popout {
+  from {
+    transform: scale(0);
+  }
+  80% {
+    transform: scale(1.2);
+  }
+  to {
+    transform: scale(1);
+  }
 }

@@ -7,7 +7,10 @@ let statsDiv = document.querySelector("#boxStats");
 let settingsBtn = document.querySelector("#settings");
 let settingsDiv = document.querySelector("#boxSettings");
 
-let bodyTag = document.querySelector("body");
+let icon = document.querySelector(".fa-play")
+let wrapper = document.querySelector("#swapIcon");
+let player = document.querySelector(".player");
+
 let navBorder = document.getElementById("navBorder");
 
 helpBtn.addEventListener('click', () => {
