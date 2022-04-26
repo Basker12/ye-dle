@@ -1,4 +1,5 @@
-﻿import MP3Cutter from './mp3-cutter';
+﻿/*
+import MP3Cutter from './mp3-cutter';
 
 function cutmusic () {
     MP3Cutter.cut({
@@ -9,3 +10,4 @@ function cutmusic () {
     });
     console.log("Your song was cut i think?")
 }
+*/

@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ye-dlee2\\yedle\\yedle.csproj": {}
+    "C:\\yeye\\yedle\\yedle.csproj": {}
   },
   "projects": {
-    "C:\\ye-dlee2\\yedle\\yedle.csproj": {
+    "C:\\yeye\\yedle\\yedle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ye-dlee2\\yedle\\yedle.csproj",
+        "projectUniqueName": "C:\\yeye\\yedle\\yedle.csproj",
         "projectName": "yedle",
-        "projectPath": "C:\\ye-dlee2\\yedle\\yedle.csproj",
-        "packagesPath": "C:\\Users\\kacpe\\.nuget\\packages\\",
-        "outputPath": "C:\\ye-dlee2\\yedle\\obj\\",
+        "projectPath": "C:\\yeye\\yedle\\yedle.csproj",
+        "packagesPath": "C:\\Users\\kacpergalecki\\.nuget\\packages\\",
+        "outputPath": "C:\\yeye\\yedle\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\kacpe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\kacpergalecki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -81,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

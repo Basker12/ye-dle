@@ -207,6 +207,12 @@ input[type=button] {
   width: 75px;
   height: 75px;
 }
+.playerIcon {
+  top: 50%;
+  left: 50%;
+  margin-top: 37.5px;
+  margin-left: 28px;
+}
 input[type=search] {
   display: block;
   width: 100%;
