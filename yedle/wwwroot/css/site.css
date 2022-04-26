@@ -241,17 +241,14 @@ input[type=submit] {
   float: left;
 }
 .box1, .box2, .box3 {
-  animation: popout 1s ease;
-  -webkit-animation: popout 1s ease;
+  animation: popout 3000ms ease-in-out;
+  -webkit-animation: popout 1000ms ease-in-out;
 }
 @keyframes popout {
   from {
-    transform: scale(0);
-  }
-  80% {
-    transform: scale(1.2);
+    transform: translateY(-100%);
   }
   to {
-    transform: scale(1);
+    transform: translateY(0%);
   }
 }

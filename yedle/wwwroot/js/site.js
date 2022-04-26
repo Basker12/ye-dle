@@ -13,6 +13,20 @@ let player = document.querySelector(".player");
 
 let navBorder = document.getElementById("navBorder");
 
+/*
+const animationOut = [
+    {
+        transform: 'translateY(0%)'
+    },
+    {
+        transform: 'translateY(+100%)'
+    }
+];
+const animationOutTiming = {
+    duration: 3000,
+}
+*/
+
 helpBtn.addEventListener('click', () => {
     if (helpDiv.style.display === 'none') {
         helpDiv.style.display = 'block';
@@ -20,7 +34,7 @@ helpBtn.addEventListener('click', () => {
 });
 window.addEventListener('mouseup', function (event) {
     if (event.target !== helpDiv && event.target.parentNode !== helpDiv) {
-        helpDiv.style.display = 'none'
+        helpDiv.style.display = 'none';
     }
 });
 
